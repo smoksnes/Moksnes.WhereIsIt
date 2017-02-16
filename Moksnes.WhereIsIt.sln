@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0DAF1625-C7C8-4384-891D-A8E1E16CC9D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90B36200-CCBD-47E9-96F4-1419D2301437}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Moksnes.WhereIsIt.Web", "src\Moksnes.WhereIsIt.Web\Moksnes.WhereIsIt.Web.xproj", "{A9A2F857-72CC-4AA8-93A8-D34BE531162E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Moksnes.WhereisIt.Business", "src\Moksnes.WhereisIt.Business\Moksnes.WhereisIt.Business.xproj", "{2766F10D-49E6-489B-9142-AA4870EC070D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A2F857-72CC-4AA8-93A8-D34BE531162E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A2F857-72CC-4AA8-93A8-D34BE531162E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A2F857-72CC-4AA8-93A8-D34BE531162E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A2F857-72CC-4AA8-93A8-D34BE531162E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2766F10D-49E6-489B-9142-AA4870EC070D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2766F10D-49E6-489B-9142-AA4870EC070D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2766F10D-49E6-489B-9142-AA4870EC070D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2766F10D-49E6-489B-9142-AA4870EC070D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9A2F857-72CC-4AA8-93A8-D34BE531162E} = {0DAF1625-C7C8-4384-891D-A8E1E16CC9D9}
+		{2766F10D-49E6-489B-9142-AA4870EC070D} = {0DAF1625-C7C8-4384-891D-A8E1E16CC9D9}
+	EndGlobalSection
+EndGlobal
